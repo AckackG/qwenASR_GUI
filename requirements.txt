@@ -1,0 +1,7 @@
+# Core runtime for Windows local video → subtitle GUI.
+# Install: pip install -U -r requirements.txt
+# System requirement (not pip): ffmpeg on PATH
+# Real ASR needs: qwen-asr (pulls torch + transformers). Prefer a CUDA-capable GPU.
+
+qwen-asr>=0.0.1
+# torch is installed as a dependency of qwen-asr; for GPU on Windows install a CUDA build from pytorch.org first if needed.

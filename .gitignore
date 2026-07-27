@@ -1,0 +1,15 @@
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+# Keep models/README.md; ignore downloaded weights / hub cache under models/
+models/**
+!models/README.md
+*.wav
+*.srt
+!tests/**
+.DS_Store
+Thumbs.db
